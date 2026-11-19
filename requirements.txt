@@ -1,0 +1,3 @@
+# The core pipeline and offline tests use only the Python standard library.
+# Optional plotting for part3compared.py:
+# matplotlib

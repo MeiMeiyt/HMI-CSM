@@ -1,0 +1,20 @@
+{
+  "seed": 20261015,
+  "stage1": {
+    "dialect_test": "data/de-ba.MAS.test",
+    "dialect_validation": "data/de-ba.MAS.valid",
+    "dialect_samples": 1212,
+    "mednorm_file": "data/mednorm_full.tsv",
+    "mednorm_samples": 10000,
+    "candidate_limit": 15,
+    "term_reference_catalog": null,
+    "existing_manifest": null
+  },
+  "stage2": {
+    "meditod_directory": "data/MediTOD",
+    "kddres_directory": "data/KddRES",
+    "kddres_script": "data_zh_hant",
+    "dialogues_per_dataset": 200,
+    "max_turns_per_dialogue": 30
+  }
+}
